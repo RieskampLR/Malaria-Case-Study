@@ -113,7 +113,8 @@ cat Tg_prefiltered_table.tsv | awk '!seen[$1]++' > Tg_filtered_table.tsv
 
 # Search for common BUSCO genes
 sort Pb_filtered_table.tsv Pc_filtered_table.tsv Pf_filtered_table.tsv Pk_filtered_table.tsv Pv_filtered_table.tsv Py_filtered_table.tsv Tg_filtered_table.tsv Ht_filtered_table.tsv| uniq -d
-# --> none!?
+#
+
 
 
 
