@@ -3,6 +3,7 @@
 # Malaria Case Study Project - BINP29
 # Lea Rachel Rieskamp
 # 07.03.2025
+# Steps and code for exercise hand in via GitHub
 
  
 # Plasmodium gene predictions:
@@ -114,6 +115,7 @@ cat Tg_prefiltered_table.tsv | awk '!seen[$1]++' > Tg_filtered_table.tsv
 # Search for common BUSCO genes
 sort Pb_filtered_table.tsv Pc_filtered_table.tsv Pf_filtered_table.tsv Pk_filtered_table.tsv Pv_filtered_table.tsv Py_filtered_table.tsv Tg_filtered_table.tsv Ht_filtered_table.tsv| uniq -d
 #
+
 
 
 
